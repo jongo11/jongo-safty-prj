@@ -1,7 +1,6 @@
 
 import styled from '@emotion/styled'
 
-
 export const PubHeader = styled.div`
     height: 49px;
     background: #f7f7f7;

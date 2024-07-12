@@ -1,18 +1,19 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import PublishingList from "./pages/PublishingList";
+import PublishingList from "@pages/PublishingList";
+import MainLayouts from "./layouts/MainLayouts";
+import Main from "./pages/Main";
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<PublishingList />} />
-        {/* <Route path="/main" element={<Layouts />} >
-          <Route path="/" element={<PublishingList />} />
-        </Route> */}
-        <Route path="*" element={<h1>없는페이지입니다.</h1>} />
+        <Route path="/main" element={<MainLayouts />}>
+          <Route index element={<Main />}></Route>
+        </Route>
       </Routes>
     </BrowserRouter>
-  );
+);
 };
 
 export default Router;

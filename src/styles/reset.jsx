@@ -46,6 +46,9 @@ const reset = css`
 	html,body {
     background: #EBEFF5;
 	}
+    a {
+        text-decoration: none;
+    }
     body * {
     font-family: "Noto Sans KR", sans-serif;
     font-size: 1rem; 
