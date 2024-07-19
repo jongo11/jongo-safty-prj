@@ -1,0 +1,632 @@
+{
+  "AsideMenuDataList": [
+    {
+      "name": "대시보드",
+      "icon": "dashboard",
+      "color": "#fff"
+    },
+    {
+      "name": "즐겨찾기",
+      "icon": "profileLine",
+      "color": "#AFBFD8",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "type": "favorite",
+          "name": "즐겨찾기 관리",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "기본정보",
+      "icon": "dashboard",
+      "color": "#fff",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "type": "favorite",
+          "name": "즐겨찾기 관리",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "협력사 정보관리",
+      "icon": "setting",
+      "color": "#AFBFD8",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "type": "favorite",
+          "name": "즐겨찾기 관리",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "작업계획/허가서",
+      "icon": "profileLine",
+      "color": "#AFBFD8",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "type": "favorite",
+          "name": "즐겨찾기 관리",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "위험성 평가",
+      "icon": "dashboard",
+      "color": "#fff",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "type": "favorite",
+          "name": "즐겨찾기 관리",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "안전교육",
+      "icon": "profileLine",
+      "color": "#AFBFD8",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "type": "favorite",
+          "name": "즐겨찾기 관리",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "업무실적",
+      "icon": "dashboard",
+      "color": "#fff",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "type": "favorite",
+          "name": "즐겨찾기 관리",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "메뉴얼",
+      "icon": "profileLine",
+      "color": "#AFBFD8",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "type": "favorite",
+          "name": "즐겨찾기 관리",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "안전점검",
+      "icon": "dashboard",
+      "color": "#fff",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "type": "favorite",
+          "name": "즐겨찾기 관리",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "보건관리",
+      "icon": "profileLine",
+      "color": "#AFBFD8",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "type": "favorite",
+          "name": "즐겨찾기 관리",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "협의체",
+      "icon": "dashboard",
+      "color": "#fff",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "안전사고 게시판",
+      "icon": "profileLine",
+      "color": "#AFBFD8",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "안전보건관리체계 이행",
+      "icon": "dashboard",
+      "color": "#fff",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "평가관리",
+      "icon": "profileLine",
+      "color": "#AFBFD8",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "안전보건목표",
+      "icon": "dashboard",
+      "color": "#fff",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "전자결재",
+      "icon": "profileLine",
+      "color": "#AFBFD8",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "경영방침",
+      "icon": "dashboard",
+      "color": "#fff",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "규정관리",
+      "icon": "profileLine",
+      "color": "#AFBFD8",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "시스템관리",
+      "icon": "dashboard",
+      "color": "#fff",
+      "list": [
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        },
+        {
+          "name": "안전전담조직",
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}

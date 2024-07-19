@@ -20,6 +20,7 @@ const _color = {
   primary100: "#FFD146",
 
   //element
+  secon500: "#404260",
   secon400: "#26273C",
   secon300: "#363858",
   secon200: "#808BA6",

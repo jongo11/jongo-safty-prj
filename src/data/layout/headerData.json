@@ -1,0 +1,73 @@
+{
+  "topLeftMenu": [
+    {
+      "name": "위험상황신고",
+      "link": "#"
+    },
+    {
+      "name": "알림",
+      "link": "#"
+    }
+  ],
+  "topRightMenu": [
+    {
+      "name": "신세계아이엔씨본사",
+      "sub": [
+        {
+          "name": "내정보",
+					"icon": "profileLine",
+          "color": "#26273c",
+          "link": "#"
+        },
+        {
+          "name": "내정보",
+					"icon": "profileLine",
+          "color": "#26273c",
+          "link": "#"
+        },
+        {
+          "name": "내정보",
+					"icon": "profileLine",
+          "color": "#26273c",
+          "link": "#"
+        },
+        {
+          "name": "로그아웃",
+					"icon": "logout",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "김세계",
+      "icon": "profile",
+      "discription": "신세계아이엔씨",
+      "sub": [
+        {
+          "name": "내정보",
+					"icon": "profileLine",
+          "color": "#26273c",
+          "link": "#"
+        },
+        {
+          "name": "내정보",
+					"icon": "profileLine",
+          "color": "#26273c",
+          "link": "#"
+        },
+        {
+          "name": "내정보",
+					"icon": "profileLine",
+          "color": "#26273c",
+          "link": "#"
+				},
+        {
+          "name": "로그아웃",
+					"icon": "logout",
+          "color": "#26273c",
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}

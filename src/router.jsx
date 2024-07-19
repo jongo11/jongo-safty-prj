@@ -8,8 +8,8 @@ const Router = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<PublishingList />} />
-        <Route path="/main" element={<MainLayouts />}>
-          <Route index element={<Main />}></Route>
+        <Route path="/" element={<MainLayouts />}>
+          <Route path="main" element={<Main />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

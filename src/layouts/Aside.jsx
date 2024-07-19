@@ -1,80 +1,102 @@
-import * as S from "@/styles/components/common/aside.js";
-import _color from "@/styles/variable.js";
-import _rem from "@/styles/remTransform";
+import { AsideBar } from "@/styles/layouts/aside.js";
+import { AsideMenuDataList } from "@/data/layout/asideData.json";
 import Button from "@/components/elements/Button";
+import { useRef, useEffect, useState } from "react";
+import Icon from "@/components/elements/Icon";
+import useOutSideRef from "@/hooks/useOutSideRef.js";
 
-function Aside({ handleContent, showContent, modalToggle }) {
-  const AsideMenuDataList = [
-    {
-      contentText: "대시보드",
-      show: "Dashboard"
-    },
-    {
-      contentText: "대시보드 임직원",
-      show: "DashboardExecutives",
-    },
-    {
-      contentText: "위험성 평가",
-      show: "RiskAssessment",
-    },
-    {
-      contentText: "강의실",
-      show: "SafetyEducation",
-    },
-    {
-      contentText: "게시판",
-      show: "NoticeBoard",
-    },
-    {
-      contentText: "공통",
-      show: "CommonPage",
-    },
-  ];
-
-  const buttonClick = (content, index) => {
-    handleContent(content);
-    window.scrollTo({ top: 0 });
-    if(index===2) {
-      modalToggle();
-    }
+function Aside() {
+  const [isFold, setFold] = useState(false);
+  const [active, setActive] = useState(0);
+  const [subActive, setSubActive] = useState(-1);
+  const [menuArr, setMenuArr] = useState(AsideMenuDataList);
+  const changeActive = (i) => {
+    setActive(i);
+    return i;
   };
-
+  // 메인버튼 눌렀을때 동작
+  useEffect(() => {
+    let result = [];
+    AsideMenuDataList.map((list, i) => {
+      result[i] = list;
+      active === i ? (result[i].color = "#fff") : (result[i].color = "#AFBFD8");
+    });
+    setMenuArr(result);
+    setSubActive(-1);
+  }, [active]);
+  const ref = useRef([]);
+  useOutSideRef(ref, active, setActive);
   return (
-    <S.AsideBar>
-      <div className="menu-area">
-        <Button className="menu-control"></Button>
+    <AsideBar>
+      <div className={`menu-area ${isFold && "fold"}`}>
+        <button
+          onClick={() => {
+            setFold(!isFold);
+          }}
+          className="menu-control"
+        ></button>
         <ul className="AsideMenuList">
-          {AsideMenuDataList.map((item, index) => (
-            <li key={index}>
+          {menuArr.map((item, i) => (
+            <li key={i}>
               <Button
-                contentText={item.contentText}
-                display="flex"
-                alignItems="center"
-                justifyContent="flex-start"
-                paddingTop={_rem(15)}
-                paddingBottom={_rem(15)}
-                paddingLeft={_rem(19)}
-                paddingRight={_rem(19)}
-                fontSize={_rem(15)}
-                fontWeight="bold"
-                width="100%"
-                height={_rem(20)}
-                background="none"
-                outline="none"
-                border="none"
-                color={_color.secon100}
-                isIcons={true}
-                onClick={() => buttonClick(item.show, index)}
-                className={showContent === item.show ? "active" : ""}
-                show={item.show}
-              ></Button>
+                txt={item.name}
+                className={`aside-menu ${active === i && "active"}`}
+                clickHandler={() => {
+                  changeActive(i);
+                }}
+              >
+                <Icon
+                  id={item.icon}
+                  width="24"
+                  height="24"
+                  mgr="10"
+                  fill={item.color}
+                />
+                {item.list ? (
+                  <Icon
+                    className="arrow"
+                    id="arrowRight"
+                    width="24"
+                    height="24"
+                    mgr="10"
+                    stroke={item.color}
+                  />
+                ) : null}
+              </Button>
+              {active === i && item.list ? (
+                <ul
+                  ref={(el) => {
+                    ref.current[i] = el;
+                  }}
+                >
+                  {item.list.map((item, j) => (
+                    <li key={j}>
+                      <Button
+                        txt={item.name}
+                        className={ item.type +
+                          (subActive === j ? " active" : '')
+                        }
+                        clickHandler={() => {
+                          setSubActive(j);
+                        }}
+                      >
+                        { item.type && <Icon
+                          id="setting"
+                          width="14"
+                          height="14"
+                          fill="#fff"
+                        /> }
+                      </Button>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
             </li>
           ))}
         </ul>
       </div>
-    </S.AsideBar>
+    </AsideBar>
   );
 }
-
 
 export default Aside;

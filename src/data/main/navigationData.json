@@ -1,0 +1,12 @@
+{
+  "NavigationData": [
+    {
+      "title": "안전보건관리 체계 이행 현황",
+      "icon": "notice"
+    },
+    { "title": "전보건관리 체계 이행 현황", "icon": "notice" },
+    { "title": "보건관리 체계 이행 현황", "icon": "notice" },
+    { "title": "건관리 체계 이행 현황", "icon": "notice" },
+    { "title": "리 체계 이행 현황", "icon": "notice" }
+  ]
+}

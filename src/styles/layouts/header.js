@@ -33,6 +33,9 @@ const HeaderWrap = styled.header`
     }
     li {
       margin-left: ${_rem(20)};
+      &:first-of-type {
+        margin-left: 0;
+      }
       a {
         display: flex;
         align-items: center;
@@ -66,6 +69,8 @@ const HeaderWrap = styled.header`
     > li {
       position: relative;
       > button {
+        display: flex;
+        align-items: center;
         background: none; border: none; cursor: pointer;
         font-size: ${_rem(12)}; font-weight: bold; color: ${_color.secon200}; padding: 0 ${_rem(20)} 0 0;
         position: relative;
@@ -100,26 +105,12 @@ const HeaderWrap = styled.header`
           > li {
             height: ${_rem(20)};
             display: flex; align-items: center;
-            &.my-info {
-              > a {
-                &::before {
-                  ${_mx.svgMask(_svgList.profile, _color.grey550)}
-                }
-              }
-            }
-            &.logout {
-              > button {
-                &::before {
-                  ${_mx.svgMask(_svgList.logout, _color.grey550)}
-                }
-              }
-            }
             a, button {
               line-height: ${_rem(20)};
-              display: block; color: ${_color.grey700};
+              display: flex; color: ${_color.grey700};
+              align-items:center;
               width: 100%; height: 100%;
               font-weight: 500; font-size: ${_rem(11)}; text-align: left;
-              padding: 0 0 0 ${_rem(25)};
               position: relative;
               &::before {
                 content: '';

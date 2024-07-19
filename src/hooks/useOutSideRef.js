@@ -1,28 +1,17 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect } from 'react';
 
-const useOutSideRef = (p, handle) => {
-  const ref = useRef(p);
-
-  const [isShowOptions, setShowOptions] = useState(handle);
-
-  const ShowOption = () => {
-    setShowOptions(prev => !prev);
-  };
-
+const useOutSideRef = (getRef, handle, setHandle) => {
   useEffect(() => {
     const handleClickOutside = event => {
-      if (isShowOptions === true && ref.current && !ref.current.contains(event.target)) {
-        ShowOption();
+      if (getRef.current[handle] && !getRef.current[handle].contains(event.target)) {
+        setHandle(-1);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
-
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  });
-
-  return { ref: ref, isShowOptions: isShowOptions, ShowOption: ShowOption };
+  }, [getRef, handle, setHandle]);
 };
 
 export default useOutSideRef;
