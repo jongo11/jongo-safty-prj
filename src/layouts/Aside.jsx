@@ -12,7 +12,6 @@ function Aside() {
   const [menuArr, setMenuArr] = useState(AsideMenuDataList);
   const changeActive = (i) => {
     setActive(i);
-    return i;
   };
   // 메인버튼 눌렀을때 동작
   useEffect(() => {
@@ -41,7 +40,7 @@ function Aside() {
               <Button
                 txt={item.name}
                 className={`aside-menu ${active === i && "active"}`}
-                clickHandler={() => {
+                onClick={() => {
                   changeActive(i);
                 }}
               >
@@ -76,7 +75,7 @@ function Aside() {
                         className={ item.type +
                           (subActive === j ? " active" : '')
                         }
-                        clickHandler={() => {
+                        onClick={() => {
                           setSubActive(j);
                         }}
                       >

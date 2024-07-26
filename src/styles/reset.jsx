@@ -46,6 +46,11 @@ const reset = css`
 	html,body {
     background: #EBEFF5;
 	}
+    button {
+    padding: 0;
+    background: none;
+    border: none;
+    }
     a {
         text-decoration: none;
     }

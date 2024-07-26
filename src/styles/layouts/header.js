@@ -74,12 +74,12 @@ const HeaderWrap = styled.header`
         background: none; border: none; cursor: pointer;
         font-size: ${_rem(12)}; font-weight: bold; color: ${_color.secon200}; padding: 0 ${_rem(20)} 0 0;
         position: relative;
-        &::after {
+        /* &::after {
           content: '';
           width: ${_rem(13)}; height: ${_rem(13)};
           position: absolute; right: 0; top: 50%; transform: translateY(-50%) rotate(180deg);
           ${_mx.svgMask(_svgList.chevron, _color.secon200)};
-        }
+        } */
       }
       & + li {
         margin-left: ${_rem(24)};

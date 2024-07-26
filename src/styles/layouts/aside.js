@@ -5,6 +5,8 @@ import _svgList from "@/styles/svgList.js";
 import _mx from "@/styles/mixin.js";
 
 const AsideBar = styled.aside`  
+  position:relative;
+  z-index: 9;
   flex: 0 0 auto;    
   min-height: 100vh;
   border-radius: 0 ${_rem(25)} ${_rem(25)} 0;

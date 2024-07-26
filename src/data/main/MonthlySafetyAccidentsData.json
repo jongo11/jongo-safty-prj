@@ -1,0 +1,32 @@
+{
+  "title": "월별 안전사고 현황",
+  "accdentsData": [
+    {
+      "year": "2024",
+      "month": "01",
+      "accidentDatas":[
+        {"rank": "A", "num": "23"},
+        {"rank": "B", "num": "10"},
+        {"rank": "C", "num": "15"}
+      ]
+    },
+    {
+      "year": "2025",
+      "month": "02",
+      "accidentDatas":[
+        {"rank": "A", "num": "34"},
+        {"rank": "B", "num": "25"},
+        {"rank": "C", "num": "31"}
+      ]
+    },
+    {
+      "year": "2026",
+      "month": "03",
+      "accidentDatas":[
+        {"rank": "A", "num": "56"},
+        {"rank": "B", "num": "63"},
+        {"rank": "C", "num": "85"}
+      ]
+    }
+  ]
+}

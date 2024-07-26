@@ -48,6 +48,24 @@ function Header() {
                   mgr="4"
                 />
                 {item.name}
+                &nbsp;
+                {
+                  subHandle === i ?
+                  <Icon
+                    id="arrow-up"
+                    width="16"
+                    height="16"
+                    stroke="#808BA6"
+                  />
+                  :
+                  <Icon
+                    id="arrow-down"
+                    width="16"
+                    height="16"
+                    stroke="#808BA6"
+                  />
+                }
+                
               </button>
               {subHandle === i ? (
                 <div

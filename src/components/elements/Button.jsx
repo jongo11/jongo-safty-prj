@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 
-function Button({className,type,txt,clickHandler,children}) {
+function Button({className,type,txt,onClick,children}) {
   return (
     <button
       className={className}
       type={type}
-      onClick={clickHandler}
+      onClick={onClick}
     >
       {children}
       <span>{txt}</span>
@@ -18,7 +18,7 @@ Button.propTypes = {
   type: PropTypes.string,
   icon: PropTypes.string,
   txt: PropTypes.string,
-  clickHandler: PropTypes.func,
+  onClick: PropTypes.func,
   children: PropTypes.node,
 }
 

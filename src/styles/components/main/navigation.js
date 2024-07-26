@@ -6,16 +6,18 @@ import styled from '@emotion/styled';
 
 // 네비게이션
 export const Navigation = styled.div`
-padding: 0 ${_rem(24)};
 width: 100%;
-display: flex; align-items: center; justify-content:space-between; padding: 0 ${_rem(20)} ${_rem(24)};
+display: flex; align-items: center; justify-content:space-between; padding: 0 ${_rem(20)};
+@media screen and (max-width: ${_rem(855)}) {
+    display: none;
+}
 > .tab-list {
   display: flex; align-items: center;
   width: calc(100% - ${_rem(100)});
   > li {
     display: flex; align-items: center; max-width: ${_rem(220)}; height: ${_rem(48)};
     background: ${_color.grey50}; border-radius: ${_rem(99)};
-    padding: 0 ${_rem(8)};
+    padding: 0 ${_rem(10)};
     & + li { margin-left: ${_rem(8)}; }
     > button {
       display: flex; align-items: center;

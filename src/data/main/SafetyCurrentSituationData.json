@@ -1,0 +1,36 @@
+{
+  "title": "안전 점검 현황",
+  "label":["고위험","전체"],
+  "chartData": [
+    {
+      "year": "2024",
+      "month": "01",
+      "value": [
+        { "title": "신세계", "fullValue": 155, "value": 34 },
+        { "title": "이마트", "fullValue": 190, "value": 30 },
+        { "title": "신세계아이앤씨", "fullValue": 94, "value": 11 },
+        { "title": "인터내셔날", "fullValue": 75, "value": 15 }
+      ]
+    },
+    {
+      "year": "2025",
+      "month": "02",
+      "value": [
+        { "title": "신세계2", "fullValue": 155, "value": 100 },
+        { "title": "이마트2", "fullValue": 190, "value": 70 },
+        { "title": "신세계아이앤씨2", "fullValue": 94, "value": 31 },
+        { "title": "인터내셔날2", "fullValue": 75, "value": 75 }
+      ]
+    },
+    {
+      "year": "2026",
+      "month": "03",
+      "value": [
+        { "title": "신세계3", "fullValue": 155, "value": 14 },
+        { "title": "이마트3", "fullValue": 190, "value": 90 },
+        { "title": "신세계아이앤씨3", "fullValue": 94, "value": 81 },
+        { "title": "인터내셔날3", "fullValue": 75, "value": 15 }
+      ]
+    }
+  ]
+}
