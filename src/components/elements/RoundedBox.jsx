@@ -20,8 +20,18 @@ function RoundedBox({ className, type, children }) {
         width: 100%;
       }
     }
+    &.rounded_box[type="middle"] {
+      width: calc(100% * 0.5 - ${_rem(14)});
+      @media screen and (max-width: ${_rem(1270)}) {
+        width: calc(100% / 2 - ${_rem(14)});
+      }
+      @media screen and (max-width: ${_rem(920)}) {
+        width: 100%;
+      }
+    }
     &.rounded_box[type="normal"] {
       width: calc(100% / 3 - ${_rem(14)});
+      max-height: ${_rem(420)};
       @media screen and (max-width: ${_rem(1270)}) {
         width: calc(100% / 2 - ${_rem(14)});
       }

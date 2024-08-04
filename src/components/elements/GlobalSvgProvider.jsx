@@ -1,7 +1,7 @@
 import { createPortal } from 'react-dom';
 
 const spliteSvgCode = (
-  <svg
+  <svg style={{width:0, height:0, position:"absolute"}}
     xmlns="http://www.w3.org/2000/svg"
   >
     <symbol id="dashboard" viewBox="0 0 24 24">

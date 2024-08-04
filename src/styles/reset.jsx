@@ -27,6 +27,9 @@ const reset = css`
     }
     ol, ul {
     list-style: none;
+    li {
+        padding: 0;
+    }
     }
     blockquote, q {
     quotes: none;

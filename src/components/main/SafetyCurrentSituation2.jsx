@@ -57,17 +57,16 @@ function SafetyCurrentSituation2(props) {
                           </strong>
                           <div className="percent">
                             <p>
-                              {props.data.label1}/{props.data.label2}
-                            </p>{" "}
-                            <span>{chartRatio}%</span>
+                              {props.data.label[0]}/{props.data.label[1]}
+                            </p>
+                            <span>{item.fullValue}/{item.value}</span>
                           </div>
                         </div>
                         <div className="chart-area">
                           <div className="full-value">
                             <div style={chartStyle} className="value">
-                              <span>{item.value}</span>
+                              <span>{Math.floor((item.value/item.fullValue)*100)}%</span>
                             </div>
-                            <span>{item.fullValue}</span>
                           </div>
                         </div>
                       </li>

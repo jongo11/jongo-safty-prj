@@ -8,6 +8,8 @@ import SafetyCurrentSituation from "@/components/main/SafetyCurrentSituation"
 import SafetyCurrentSituation2 from "@/components/main/SafetyCurrentSituation2"
 import SafetyAccidents from "@/components/main/SafetyAccidents"
 import MonthlySafetyAccidents from "@/components/main/MonthlySafetyAccidents"
+import MainTask from "@/components/main/MainTask"
+import MainNews from "@/components/main/MainNews"
 
 // json data list
 import NavigationData from "@/data/main/navigationData.json";
@@ -16,6 +18,9 @@ import SafetyCurrentSituationData from "@/data/main/SafetyCurrentSituationData.j
 import SafetyCurrentSituation2Data from "@/data/main/SafetyCurrentSituation2Data.json";
 import SafetyAccidentsData from "@/data/main/SafetyAccidentsData.json";
 import MonthlySafetyAccidentsData from "@/data/main/MonthlySafetyAccidentsData.json";
+import MainTaskData from "@/data/main/MainTaskData.json";
+import MainNewsData from "@/data/main/MainNewsData.json";
+
 
 function Main() {
   const ContainerWrap = styled.div`
@@ -36,6 +41,8 @@ const DashboardWrap = styled.div`
         <SafetyCurrentSituation2 data={SafetyCurrentSituation2Data} />
         <SafetyAccidents data={SafetyAccidentsData} />
         <MonthlySafetyAccidents data={MonthlySafetyAccidentsData} />
+        <MainTask data={MainTaskData} />
+        <MainNews data={MainNewsData} />
       </DashboardWrap>
     </ContainerWrap>
   );
